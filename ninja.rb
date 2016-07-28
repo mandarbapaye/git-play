@@ -11,7 +11,7 @@ module I18n
       end
 
       def reload!
-        reset_memoizations!
+        reset_memoizations!(false)
         super
       end
 
