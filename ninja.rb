@@ -12,6 +12,7 @@ module I18n
 
       def reload!
         reset_memoizations!(false)
+        # are you ok with this ?
         super
       end
 
